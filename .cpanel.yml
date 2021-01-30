@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/justbetter/public_html/hola
+    - /bin/cp -R images $DEPLOYPATH
